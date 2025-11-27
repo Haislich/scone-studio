@@ -10,8 +10,7 @@ general_deps=(
     make
     gcc
     g++
-
-    # for 'fpm'
+    python3.12-dev
     ruby
     ruby-dev
     rubygems

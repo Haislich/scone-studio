@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -xeuo pipefail
+echo ${BASH_SOURCE}
 source "$( dirname ${BASH_SOURCE} )/build_config"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then

@@ -1,0 +1,14 @@
+
+
+services:
+  scone-studio:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: scone-studio-container
+    working_dir: /workspace
+    volumes:
+      - ../:/workspace
+    tty: true
+    environment:
+      GITHUB_WORKSPACE: /workspace

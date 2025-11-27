@@ -2,6 +2,7 @@
 
 set -xeuo pipefail
 source "$( dirname ${BASH_SOURCE} )/build_config"
+script_dir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 ${script_dir}/linux_1_get-external-dependencies
 ${script_dir}/unix_2a_build-osg-fix
