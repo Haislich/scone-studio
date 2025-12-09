@@ -7,3 +7,15 @@
 [submodule "scone"]
 	path = scone
 	url = ../scone-core
+
+[submodule "submodules/OpenSceneGraph"]
+	path = submodules/OpenSceneGraph
+	url = https://github.com/openscenegraph/OpenSceneGraph.git
+
+[submodule "submodules/opensim3-scone"]
+	path = submodules/opensim3-scone
+	url = https://github.com/tgeijten/opensim3-scone.git
+
+[submodule "submodules/simbody"]
+	path = submodules/simbody
+	url = https://github.com/simbody/simbody.git
